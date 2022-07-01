@@ -74,7 +74,11 @@ const login = async(e) => {
   return (
     <div>
       <h1 style={{ fontSize: "3rem", color: "white", padding: "3%" }}>Login</h1>
-      {error && <span style={{ color: "red" }}>{error}</span>}
+      {error && <span style={{ color: "red", fontSize:"1.5rem" }}>Invalid Username or Password</span>}
+      <br/>
+      <br/>
+      <br/>
+      
       <form onSubmit={login}>
         <label
           style={{
@@ -102,6 +106,7 @@ const login = async(e) => {
             border: "none",
             textAlign: "center",
           }}
+          required
         />
         <br />
         <br />
@@ -134,6 +139,7 @@ const login = async(e) => {
             border: "none",
             textAlign: "center",
           }}
+          required
         />
         <br />
         <br />

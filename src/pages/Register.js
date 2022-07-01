@@ -70,7 +70,10 @@ try {
       <h1 style={{ fontSize: "3rem", color: "white", padding: "3%" }}>
         Register
       </h1>
-      {error && <span style={{ color: "red" }}>{error}</span>}
+      {error && <span style={{ color: "red", fontSize:"1.5rem" }}>User Already Exists</span>}
+      <br/>
+      <br/>
+      <br/>
       <form onSubmit={register}>
         <label
           style={{
@@ -98,6 +101,7 @@ try {
             border: "none",
             textAlign: "center",
           }}
+          required
         />
         <br />
         <br />
@@ -130,6 +134,7 @@ try {
             border: "none",
             textAlign: "center",
           }}
+          required
         />
         <br />
         <br />
