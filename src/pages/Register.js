@@ -61,6 +61,7 @@ try {
       history.push("/login");
     } catch (error) {
       console.log(error);
+      setError(error.message);
     }
   };
 

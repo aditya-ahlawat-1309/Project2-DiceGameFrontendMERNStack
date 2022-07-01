@@ -61,6 +61,7 @@ const login = async(e) => {
         )
         .catch((err) => {
           console.log(err);
+          setError(err.message);
         });
 
       localStorage.setItem("userInfo", JSON.stringify(data));
