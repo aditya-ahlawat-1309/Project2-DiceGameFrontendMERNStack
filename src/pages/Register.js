@@ -148,6 +148,7 @@ try {
             backgroundColor: "white",
             opacity: "0.75",
             border: "none",
+                 cursor:"pointer",
           }}
         >
           Register
