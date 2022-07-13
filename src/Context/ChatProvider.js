@@ -10,7 +10,7 @@ const ChatProvider = ({children}) => {
     useEffect(() => {
         const userInfo = JSON.parse(localStorage.getItem("userInfo"));
         setUser(userInfo);
-        if(!userInfo) history.push("/home");
+        if(userInfo) history.push("/home");
     },[history]);
   
     return (
