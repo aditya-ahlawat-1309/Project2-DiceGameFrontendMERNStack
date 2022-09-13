@@ -87,7 +87,7 @@ const login = async(e) => {
             paddingRight: "10%",
             fontSize: "1.5rem",
             backgroundColor: "green",
-            opacity: "0.7",
+            opacity: "1",
             color: "white",
           }}
         >
@@ -119,7 +119,7 @@ const login = async(e) => {
             paddingRight: "10%",
             fontSize: "1.5rem",
             backgroundColor: "green",
-            opacity: "0.7",
+            opacity: "1",
             color: "white",
           }}
         >
@@ -151,7 +151,7 @@ const login = async(e) => {
             paddingLeft: "10%",
             paddingRight: "10%",
             backgroundColor: "white",
-            opacity: "0.75",
+            opacity: "1",
             border: "none",
           }}
         >

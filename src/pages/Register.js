@@ -82,7 +82,7 @@ try {
             paddingRight: "10%",
             fontSize: "1.5rem",
             backgroundColor: "green",
-            opacity: "0.7",
+            opacity: "1",
             color: "white",
           }}
         >
@@ -114,7 +114,7 @@ try {
             paddingRight: "10%",
             fontSize: "1.5rem",
             backgroundColor: "green",
-            opacity: "0.7",
+            opacity: "1",
             color: "white",
           }}
         >
@@ -146,7 +146,7 @@ try {
             paddingLeft: "10%",
             paddingRight: "10%",
             backgroundColor: "white",
-            opacity: "0.75",
+            opacity: "1",
             border: "none",
           }}
         >

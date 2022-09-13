@@ -12,7 +12,7 @@
 
 body {
   /* background-color: #393E46; */
-  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-image: url("https://wallpapercave.com/wp/wp3502942.jpg");
 height: 100%;
 width:100%;
 background-repeat: no-repeat;
@@ -29,7 +29,7 @@ h1 {
   color: #fff;
   background-color: black;
   
-  opacity: 0.5;
+  opacity: 1;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
   color: #fff;
   background-color: black;
 padding:5%;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 h3 {
@@ -47,7 +47,7 @@ h3 {
   color: #fff;
   background-color: black;
   padding: 5%;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 h5 {
@@ -56,7 +56,7 @@ h5 {
   color: #fff;
   background-color: black;
   padding: 0%;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 p {

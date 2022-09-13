@@ -256,18 +256,31 @@ const logoutHandler = () => {
         <h3>{information}</h3>
         <button
           onClick={logoutHandler}
+          // style={{
+          //   fontSize: "2rem",
+          //   cursor: "pointer",
+          //   backgroundColor: "#08F0A3",
+          //   color: "red",
+          //   padding: "10px",
+          //   borderRadius: "35px",
+          //   left: "90%",
+          //   height: "10%",
+          //   position: "absolute",
+          //   top: "3%",
+          //   borderColor: "red",
+          // }}
           style={{
+            textDecoration: "none",
+            color: "white",
             fontSize: "2rem",
+            fontWeight: "500",
+            backgroundColor: "red",
+            opacity: "1",
+          padding:"1%",
             cursor: "pointer",
-            backgroundColor: "#08F0A3",
-            color: "red",
-            padding: "10px",
-            borderRadius: "35px",
-            left: "90%",
-            height: "10%",
             position: "absolute",
-            top: "3%",
-            borderColor:"red",
+            top: "5%",
+            left: "87.5%",
           }}
         >
           Logout
