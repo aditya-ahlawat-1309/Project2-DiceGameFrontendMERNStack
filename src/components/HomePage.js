@@ -52,7 +52,7 @@ const history = useHistory();
         },
       };
       await axios.post(
-        `https://dicedgame.herokuapp.com/api/history`,
+        `https://lazy-gold-lemur-ring.cyclic.app/api/history`,
         {
           body: newData,
         },
@@ -88,7 +88,7 @@ const history = useHistory();
       };
 
       const { data } = await axios.get(
-        `https://dicedgame.herokuapp.com/api/history`,
+        `https://lazy-gold-lemur-ring.cyclic.app/api/history`,
         config
       );
       console.log(data);
