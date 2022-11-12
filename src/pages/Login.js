@@ -55,7 +55,7 @@ const login = async(e) => {
 
       const { data } = await axios
         .post(
-          `https://dicedgame.herokuapp.com/api/login`,
+          `https://lazy-gold-lemur-ring.cyclic.app/api/login`,
           { username, password },
           config
         )
