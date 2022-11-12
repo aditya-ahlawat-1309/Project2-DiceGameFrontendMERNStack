@@ -70,7 +70,11 @@ try {
       <h1 style={{ fontSize: "3rem", color: "white", padding: "3%" }}>
         Register
       </h1>
-      {error && <span style={{ color: "red", fontSize:"1.5rem" }}>User Already Exists</span>}
+      {
+        error ? <span style={{ color: "red", fontSize:"1.75rem", fontWeight:"bold" }}>User Already Exists</span> 
+      : 
+        <span style={{ color: "red", fontSize:"1.75rem", fontWeight:"bold" }}>Please Wait</span>
+}
       <br/>
       <br/>
       <br/>
@@ -148,6 +152,7 @@ try {
             backgroundColor: "white",
             opacity: "1",
             border: "none",
+                 cursor:"pointer",
           }}
         >
           Register
