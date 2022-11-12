@@ -46,7 +46,7 @@ try {
       };
       const { data } = await axios
         .post(
-          `https://dicedgame.herokuapp.com/api/register`,
+          `https://lazy-gold-lemur-ring.cyclic.app/api/register`,
           {
             username,
             password,
